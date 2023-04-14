@@ -10,8 +10,8 @@ namespace nbrgame
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the number game");
-            Console.WriteLine("You got only 3 try to found the number betweeen 1-5");
-            Console.WriteLine("do you think you can make it?");
+            Console.WriteLine("im gonna generate a 10 digit number for you");
+            Console.WriteLine("do you wanna play the game");
 
             string userAnswer = Console.ReadLine();
 
@@ -55,6 +55,34 @@ namespace nbrgame
                     }//tout fonctionne jusqu'ici
                 }
             }
+            int nbr1 = 5;
+            int nbr2 = 1;
+            int nbr3 = 4;
+            Random nbrRandom = new Random();
+
+            //int nbr1 = nbrRandom.Next(0, 9);
+            //int nbr2 = nbrRandom.Next(0, 9);
+            //int nbr3 = nbrRandom.Next(0, 9);
+            int nbr4 = nbrRandom.Next(0, 9);
+            int nbr5 = nbrRandom.Next(0, 9);
+            int nbr6 = nbrRandom.Next(0, 9);
+            int nbr7 = nbrRandom.Next(0, 9);
+            int nbr8 = nbrRandom.Next(0, 9);
+            int nbr9 = nbrRandom.Next(0, 9);
+            int nbr10 = nbrRandom.Next(0, 9);
+
+
+            Console.WriteLine("now Call that number");
+            Console.WriteLine("");
+            Console.Write(nbr1);
+            Console.Write(nbr2);
+            Console.Write(nbr3);
+
+            Console.WriteLine("-" + nbr4 + nbr5 + nbr6 + "-" + nbr7 + nbr8 + nbr9 + nbr10);
+            Console.WriteLine("call it");
+
+            //tout fonctionne jusqu'ici
+
 
 
 
@@ -65,110 +93,3 @@ namespace nbrgame
         }
     }
 }
-/* do
-   {
-       Console.WriteLine("i dont understand what you trying to tell me");
-       Console.WriteLine("try again. answer possible are: ");
-       Console.WriteLine("yes,oui,no,non");
-
-       Console.ReadLine();
-   }
-   while (userAnswer != "yes" || userAnswer != "oui" || userAnswer != "no" || userAnswer != "non");
-
-       if (userAnswer == "yes" || userAnswer == "oui")
-       {
-           Console.WriteLine("You said yes. the game is about to start");
-       }
-       else
-       {
-           Console.WriteLine("You answer is no");
-           Console.WriteLine("Maybe next time");
-       }
-
-
-   if (userAnswer == "yes" || userAnswer == "oui")
-   {
-       Console.WriteLine("You said yes. the game is about to start");
-   }
-   else
-   {
-       Console.WriteLine("You answer is no");
-       Console.WriteLine("Maybe next time");
-
-
-
-
-
-
-                switch(userAnswer)
-                {
-                    case "yes":
-                        Console.WriteLine("You said yes. the game is about to start");
-                        break;
-                    case "oui":
-                        Console.WriteLine("You said yes. the game is about to start");
-                        break;
-                    case "no":
-                        Console.WriteLine("You answer is no");
-                        Console.WriteLine("Maybe next time");
-                        break;
-                    case "non":
-                        Console.WriteLine("You answer is no");
-                        Console.WriteLine("Maybe next time");
-                        break;
-                    default:
-                        Console.WriteLine("i dont understand what you trying to tell me");
-                        Console.WriteLine("try again. answer possible are: ");
-                        Console.WriteLine("yes,oui,no,non");
-                        break;
-                }
-
-
-
-
-
-      string userWrong = Console.ReadLine();
-
-                Console.ReadLine();
-                if (userWrong == "yes" || userWrong == "oui")
-                {
-                    Console.WriteLine("You said yes. the game is about to start");
-                }
-                else if (userWrong == "no" || userWrong == "non")
-                {
-                    Console.WriteLine("You answer is no");
-                    Console.WriteLine("Maybe next time");
-                }
-                else
-                {
-                    Console.ReadLine();
-
-                }
-   }
-
- 
- 
- 
- 
- 
- do
-            {
-                Console.WriteLine("i dont understand what you trying to tell me");
-                Console.WriteLine("try again. answer possible are: ");
-                Console.WriteLine("yes,oui,no,non");
-
-                userAnswer = Console.ReadLine();
-
-                if (userAnswer == "yes" || userAnswer == "oui")
-                {
-                    Console.WriteLine("You said yes. the game is about to start");
-                }
-                if (userAnswer == "no" || userAnswer == "non")
-                {
-                    Console.WriteLine("You answer is no");
-                    Console.WriteLine("Maybe next time");
-                }
-                
-
-            } while (userAnswer == "yes" || userAnswer != "oui" || userAnswer != "no" || userAnswer != "non");
- */
