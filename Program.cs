@@ -80,6 +80,7 @@ namespace nbrgame
 
             Console.WriteLine("-" + nbr4 + nbr5 + nbr6 + "-" + nbr7 + nbr8 + nbr9 + nbr10);
             Console.WriteLine("call it");
+            Console.WriteLine("test reussis");
 
             //tout fonctionne jusqu'ici
 
