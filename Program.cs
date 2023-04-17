@@ -82,6 +82,7 @@ namespace nbrgame
             Console.WriteLine("call it");
             Console.WriteLine("test windows reussis");
             Console.WriteLine("test mac reussis");
+            Console.WriteLine("test git pull, test reussis");
 
             //tout fonctionne jusqu'ici
 
